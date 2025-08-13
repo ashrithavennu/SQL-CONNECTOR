@@ -1,0 +1,20 @@
+{
+  "data": [
+    {
+      "invoice_number": "INV-1001",
+      "date": "2024-11-15",
+      "amount": 2500.75,
+      "vendor": "ABC Supplies",
+      "description": "Office stationery purchase"
+    }
+  ]
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,19 @@
+{
+  "host": "localhost",
+  "port": "5432",
+  "schema": "docunotes",
+  "data": [
+    {
+      "invoice_number": "123",
+      "date": "2024-01-01",
+      "amount": "1000",
+      "vendor": "Vendor A",
+      "description": "Payment for services"
+    }
+  ]
+}
+
+
+
+
+
