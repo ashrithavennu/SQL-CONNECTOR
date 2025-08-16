@@ -1,0 +1,171 @@
+.form-wrapper {
+  padding: 0px 0px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: white;
+}
+
+.form-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.form-header h2 {
+  font-size: 15px;
+  font-weight: 500;
+  margin: 0;
+  color: #2e2e2e;
+}
+
+.close-button {
+  background: none;
+  border: none;
+  font-size: 25px;
+  font-weight: normal;
+  cursor: pointer;
+  color: #555;
+  margin-top: 12px;
+  position:absolute;
+  top: 0;
+  right: 20px;
+  width: 36px;
+  height: 36px;
+}
+
+/* Labels and Inputs */
+form label {
+  font-size: 13.5px;
+  font-weight: 500;
+  margin-bottom: 4px;
+  margin-top: 1px;
+  display: block;
+  color: #444;
+  width: 80px;
+height: 20px;
+
+}
+
+.form1 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.form1 label {
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 0px;
+}
+
+.form1 input {
+    width: 292px;
+  height: 24px;
+  padding: 10px 12px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.2s;
+  margin-bottom: 6px;
+  margin-top: 6px;
+}
+
+.form1 input:focus {
+  border-color: #1a3e74;
+}
+
+.table-wrapper {
+  margin-top: 0px;
+}
+
+
+/* Field Mapping Table */
+.field-mapping-table {
+  width: 317.6px;
+  height: 48px;
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-top: 16px;
+}
+
+.field-mapping-table th {
+  background-color: #f5f5f5;
+  font-size: 14px;
+  font-weight: 500;
+  color: #444;
+  padding: 2px 20px 2px 20px;
+  text-align: left;
+}
+
+.field-mapping-table td {
+  background-color: #fff;
+  padding: 2px 20px 2px 20px;
+  border-top: 1px solid #eee;
+}
+
+.field-mapping-table input {
+  width: 100%;
+  padding: 2px;
+  border: 0px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+/* + Field Mapping */
+.add-field {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #5c5f63;
+  cursor: pointer;
+  padding-left: 2px;
+}
+
+/* Footer Buttons */
+.button-row {
+  margin-top: 74px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cancel-btn {
+  flex: 1;
+  margin-right: 10px;
+  background-color: #fff;
+  color: #444;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+  padding: 10px 0;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.integrate-btn {
+  flex: 1;
+  margin-left: 10px;
+  background-color: #1a3e74;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  padding: 10px 0;
+  cursor: pointer;
+  font-weight: 500;
+}

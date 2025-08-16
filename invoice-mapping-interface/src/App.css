@@ -1,0 +1,119 @@
+/* Prevent scrolling and remove default spacing */
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+/* Main App container */
+.App {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  background-color: #f5f5f5;
+}
+
+/* Center the Click Me button */
+.click-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.click-me {
+  padding: 12px 24px;
+  font-size: 16px;
+  background-color: #1976d2;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  z-index: 5;
+}
+
+/* Slide-in container for form */
+.slide-container {
+  height: 100%;
+  width: 450px;
+  background-color: white;
+  box-shadow: -2px 0 10px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 0;
+  right: -450px;
+  transition: right 0.5s ease;
+  z-index: 10;
+  padding: 30px 24px;
+  overflow-y: auto;
+  border-radius: 12px 0 0 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.slide-container.active {
+  right: 0;
+}
+
+.slide-container input {
+  width: 100%;
+  padding: 10px 12px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-bottom: 16px;
+}
+
+.field-mapping-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.field-mapping-table th,
+.field-mapping-table td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+.field-mapping-table th {
+  background-color: #f0f0f0;
+}
+
+.field-mapping-table td {
+  background-color: #fff;
+}
+
+.form-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: auto;
+  padding-top: 20px;
+  border-top: 1px solid #eee;
+}
+
+.form-buttons button {
+  flex: 1;
+  margin: 0 6px;
+  padding: 14px 0;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.form-buttons button.cancel-btn {
+  background-color: #fff;
+  color: #333;
+  border: 1px solid #ccc;
+}
+
+.form-buttons button.integrate-btn {
+  background-color: #1976d2;
+  color: #fff;
+}
